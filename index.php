@@ -23,7 +23,7 @@
 <!-- snip -->
 <div id="dom-target" style="display: none;">
     <?php 
-        $output = gethostname();
+        $output = $_SERVER['SERVER_ADDR'];//gethostname();
         echo htmlspecialchars($output); 
     ?>
 </div>
