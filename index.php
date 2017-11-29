@@ -41,7 +41,7 @@
     var hostname = div.textContent;
     
 	new PNotify({
-	  title: "Smart Traffic Light Map",
+	  title: "Smart Street Light  Map",
 	  type: "info",
 	  text: "This application run  from host: <b>"+hostname+"</b>",
 	  addclass: 'dark',
